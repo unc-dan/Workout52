@@ -64,7 +64,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="rulesButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9KK-LS-miY"/>
                                     <segue destination="gc4-57-dbi" kind="presentation" id="tji-bK-Txe"/>
                                 </connections>
                             </button>
@@ -107,14 +106,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The number of each card represents how many repetitions you perform.  Jack = 11, Queen = 12, King = 13, Ace = 14" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQN-9P-ZdP">
-                                <rect key="frame" x="30" y="143" width="354" height="81.5"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The number of each card represents how many repetitions you perform.  Jack: 11, Queen: 12, King: 13, Ace: 14" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQN-9P-ZdP">
+                                <rect key="frame" x="30" y="143" width="354" height="76.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="♠️ = Push Up  ♥️ = Sit Up  ♣️ = Burpee  ♦️ = Jumping Jack" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PrR-p5-veQ">
-                                <rect key="frame" x="107" y="299.5" width="200" height="167.5"/>
+                                <rect key="frame" x="107" y="294.5" width="200" height="167.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="QnT-IZ-Vu1"/>
                                 </constraints>
