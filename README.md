@@ -4,4 +4,4 @@
 * **Stop button stops the card selector.**
 * **Rules button presents rules modally.**
 
-* *Currently incompatible with iPhone SE
+*Currently incompatible with iPhone SE*
